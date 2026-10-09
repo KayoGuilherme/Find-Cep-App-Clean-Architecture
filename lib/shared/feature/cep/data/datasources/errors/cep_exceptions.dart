@@ -1,13 +1,18 @@
-import 'package:cep_app/shared/errors/base_exception.dart';
+import 'package:cep_app/shared/const/const_strings.dart';
+import 'package:cep_app/shared/feature/cep/domain/entities/cep_response.dart';
+import 'package:cep_app/shared/feature/cep/domain/errors/cep_exception.dart';
 
-base class CepExceptions extends BaseException {
-  CepExceptions({super.message});
-}
-
-final class CepLocalException extends CepExceptions {
+final class CepLocalException extends CepException {
   CepLocalException({super.message});
 }
 
-final class CepRemoteException extends CepExceptions {
+final class CepRemoteException extends CepException {
   CepRemoteException({super.message});
+}
+
+final class CepInternetConnectionException extends CepException {
+  final CepResponse? cep;
+
+  CepInternetConnectionException({this.cep})
+    : super(message: ConstStrings.kNoInternetConnectionMessage);
 }
