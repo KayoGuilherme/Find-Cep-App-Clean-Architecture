@@ -1,3 +1,4 @@
 sealed class ConstGetCepErrorMessages {
   static const String invalidZipCode = 'Cep invalid';
+  static const String invalidLocal = 'invalidLocal';
 }

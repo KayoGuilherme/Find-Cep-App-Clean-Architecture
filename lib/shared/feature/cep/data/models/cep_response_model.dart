@@ -26,6 +26,7 @@ class CepResponseModel extends CepResponse {
   factory CepResponseModel.fromJson(String json) {
     return CepResponseModel.fromMap(jsonDecode(json));
   }
+  
 
   Map<String, dynamic> toMap() {
     return {
