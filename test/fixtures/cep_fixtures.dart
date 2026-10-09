@@ -12,6 +12,7 @@ const tCepObject = CepResponseModel(
 );
 
 const tGetCepDetailsByCepBodyRight = GetCepDetailsByCepBody(cep: '4782314');
+const tGetDetailsByCepBodyLeft = GetCepDetailsByCepBody(cep: '4fewsf3');
 
 const tGetCepDetailsByLocalBodyRight = GetCepDetailsByLocalBody(
   cidade: 'cidade_maroto',
