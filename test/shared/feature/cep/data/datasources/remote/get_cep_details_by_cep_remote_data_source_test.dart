@@ -1,11 +1,11 @@
-import 'package:cep_app/shared/const/const_strings.dart';
-import 'package:cep_app/shared/data/async/either.dart';
-import 'package:cep_app/shared/data/models/api_response_model.dart';
-import 'package:cep_app/shared/data/remote/api_service.dart';
-import 'package:cep_app/shared/data/remote/errors/api_exception.dart';
-import 'package:cep_app/shared/feature/cep/data/datasources/errors/cep_exceptions.dart';
-import 'package:cep_app/shared/feature/cep/data/datasources/remote/get_cep_details_by_cep_remote_data_source.dart';
-import 'package:cep_app/shared/feature/cep/data/datasources/remote/get_cep_details_by_cep_remote_data_source_impl.dart';
+import 'package:cep_app/core/const/const_strings.dart';
+import 'package:cep_app/core/data/async/either.dart';
+import 'package:cep_app/core/data/models/api_response_model.dart';
+import 'package:cep_app/core/data/remote/api_service.dart';
+import 'package:cep_app/core/data/remote/errors/api_exception.dart';
+import 'package:cep_app/feature/cep/data/datasources/errors/cep_exceptions.dart';
+import 'package:cep_app/feature/cep/data/datasources/remote/get_cep_details_by_cep_remote_data_source.dart';
+import 'package:cep_app/feature/cep/data/datasources/remote/get_cep_details_by_cep_remote_data_source_impl.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

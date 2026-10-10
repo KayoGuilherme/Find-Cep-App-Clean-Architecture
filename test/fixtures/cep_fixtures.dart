@@ -1,6 +1,6 @@
-import 'package:cep_app/shared/feature/cep/data/models/cep_response_model.dart';
-import 'package:cep_app/shared/feature/cep/domain/entities/get_cep_details_by_cep_body.dart';
-import 'package:cep_app/shared/feature/cep/domain/entities/get_cep_details_by_local_body.dart';
+import 'package:cep_app/feature/cep/data/models/cep_response_model.dart';
+import 'package:cep_app/feature/cep/domain/entities/get_cep_details_by_cep_body.dart';
+import 'package:cep_app/feature/cep/domain/entities/get_cep_details_by_local_body.dart';
 
 const tCepObject = CepResponseModel(
   cep: '4782314',

@@ -1,8 +1,8 @@
-import 'package:cep_app/shared/const/const_strings.dart';
-import 'package:cep_app/shared/data/async/either.dart';
-import 'package:cep_app/shared/feature/cep/domain/errors/cep_exception.dart';
-import 'package:cep_app/shared/feature/cep/domain/repositories/cep_repository.dart';
-import 'package:cep_app/shared/feature/cep/domain/use_cases/get_cep_details_by_cep.dart';
+import 'package:cep_app/core/const/const_strings.dart';
+import 'package:cep_app/core/data/async/either.dart';
+import 'package:cep_app/feature/cep/domain/errors/cep_exception.dart';
+import 'package:cep_app/feature/cep/domain/repositories/cep_repository.dart';
+import 'package:cep_app/feature/cep/domain/use_cases/get_cep_details_by_cep.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

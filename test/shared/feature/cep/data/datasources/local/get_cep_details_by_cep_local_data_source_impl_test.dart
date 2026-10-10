@@ -1,9 +1,9 @@
-import 'package:cep_app/shared/data/async/either.dart';
-import 'package:cep_app/shared/data/local/local_service/errors/local_exception.dart';
-import 'package:cep_app/shared/data/local/local_service/local_service.dart';
-import 'package:cep_app/shared/feature/cep/data/datasources/errors/cep_exceptions.dart';
-import 'package:cep_app/shared/feature/cep/data/datasources/local/get_cep_details_by_cep_local_data_source.dart';
-import 'package:cep_app/shared/feature/cep/data/datasources/local/get_cep_details_by_cep_local_data_source_impl.dart';
+import 'package:cep_app/core/data/async/either.dart';
+import 'package:cep_app/core/data/local/local_service/errors/local_exception.dart';
+import 'package:cep_app/core/data/local/local_service/local_service.dart';
+import 'package:cep_app/feature/cep/data/datasources/errors/cep_exceptions.dart';
+import 'package:cep_app/feature/cep/data/datasources/local/get_cep_details_by_cep_local_data_source.dart';
+import 'package:cep_app/feature/cep/data/datasources/local/get_cep_details_by_cep_local_data_source_impl.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
