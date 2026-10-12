@@ -1,6 +1,4 @@
-import 'package:cep_app/core/extensions/theme_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class CepButtonWidget extends StatelessWidget {
   final String label;
@@ -19,7 +17,20 @@ class CepButtonWidget extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed,
       focusNode: focusNode,
-      child: Text(label, style: context.getTextTheme.bodyMedium),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(Icons.search_rounded, size: 20, weight: 20),
+            SizedBox(width: 10),
+            Text(
+              label,
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
