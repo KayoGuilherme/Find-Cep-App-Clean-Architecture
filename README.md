@@ -297,6 +297,6 @@ flutter test
 
 <div align="center">
 
-Feito com 💜 e Flutter por **[Kayo Guilherme](https://github.com/KayoGuilherme)**
+Feito por **[Kayo Guilherme](https://github.com/KayoGuilherme)**
 
 </div>
